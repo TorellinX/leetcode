@@ -27,6 +27,7 @@ Follow up: Could you solve it without loops/recursion?
 package PowerOfTwo;
 
 public class PowerOfTwo {
+
   public boolean isPowerOfTwo(int n) {
     if (n >= 0) {
       return Integer.bitCount(n) == 1;
